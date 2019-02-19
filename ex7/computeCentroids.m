@@ -18,6 +18,9 @@ centroids = zeros(K, n);
 
 coord = zeros(n, 1);
 
+%iterate trought centroids id's and if example labled centroid = current iterate centroid, example coord
+%are getting added to the coord matrix, then sum of coord in columns gets devided by amount of examples
+%belongs to the centroid
 for k = 1:K,
 	for i = find(idx == k),
 		coord = sum(X(i,:));

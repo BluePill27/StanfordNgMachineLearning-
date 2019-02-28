@@ -1,1 +1,1 @@
-Result files for ex4 (Task itself is in the pdf file).
+Result files for ex7 (Task itself is in the pdf file).
